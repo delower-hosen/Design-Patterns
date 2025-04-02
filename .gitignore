@@ -1,3 +1,45 @@
+# Build and compiled files
 bin/
 obj/
-.vs/
+out/
+*.exe
+*.dll
+*.pdb
+
+# Rider and Visual Studio specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.vs/
+
+# NuGet packages
+*.nupkg
+packages/
+project.lock.json
+
+# Logs and debug files
+logs/
+*.log
+TestResults/
+
+# User secrets and config files
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+
+# Ignore EF Core Migrations (if applicable)
+Migrations/
+
+# Ignore dependency folders (for frontend integration)
+node_modules/
+
+# JetBrains Rider and ReSharper
+*.DotSettings.user
+.ReSharper*/
+*_ReSharper*/ 
